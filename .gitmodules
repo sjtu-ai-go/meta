@@ -12,4 +12,4 @@
 	url = git@github.com:sjtu-ai-go/go-ai.git
 [submodule "project/libuct"]
 	path = project/libuct
-	url = https://github.com/sjtu-ai-go/libuct.git
+	url = git@github.com:sjtu-ai-go/libuct.git
