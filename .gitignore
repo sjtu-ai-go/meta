@@ -29,3 +29,6 @@
 *.app
 
 /.gitmodules
+
+# Vagrant
+.vagrant/
