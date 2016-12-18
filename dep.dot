@@ -1,0 +1,23 @@
+digraph DepG
+{
+    node [style=filled fillcolor=lightblue]
+    "go-ai" -> libgoboard
+    "go-ai" -> googletest
+    "go-ai" -> gtplib
+    "go-ai" -> "libgo-common"
+
+    libfastrollout -> googletest
+    libfastrollout -> libgoboard
+
+    libgoboard -> CompressedGrid
+    libgoboard -> googletest
+    libgoboard -> "libgo-common"
+
+    "libgo-common" -> spdlog
+    "libgo-common" -> googletest
+
+    libuct -> googletest
+    libuct -> libfastrollout
+    libuct -> "libgo-common"
+    libuct -> libgoboard
+}

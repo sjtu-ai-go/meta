@@ -5,3 +5,7 @@ Meta project of sjtu-ai-go.
 1. Clone this project
 2. Modify `.gitmodules` into `git://` or any other address you have write access to that repository, then run `git submodule sync`
 3. `git submodule update --init --recursive`
+
+## Project dependencies
+
+![dependencies](https://github.com/sjtu-ai-go/meta/raw/master/dep.dot.png)
