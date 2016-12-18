@@ -5,9 +5,13 @@ digraph DepG
     "go-ai" -> googletest
     "go-ai" -> gtplib
     "go-ai" -> "libgo-common"
+    "go-ai" -> "libuct" [style="dashed"];
+
+    libpolicy [style="dotted"];
 
     libfastrollout -> googletest
     libfastrollout -> libgoboard
+    libfastrollout -> libpolicy [style="dashed", label="socket"];
 
     libgoboard -> CompressedGrid
     libgoboard -> googletest
@@ -20,4 +24,6 @@ digraph DepG
     libuct -> libfastrollout
     libuct -> "libgo-common"
     libuct -> libgoboard
+
+    libuct -> libpolicy [style="dashed", label="socket"];
 }
