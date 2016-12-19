@@ -1,15 +1,19 @@
 [submodule "project/libgo-common"]
 	path = project/libgo-common
 	url = git@github.com:sjtu-ai-go/libgo-common.git
+	branch = master
 [submodule "project/libgoboard"]
 	path = project/libgoboard
 	url = git@github.com:sjtu-ai-go/libgoboard.git
+	branch = master
 [submodule "project/libfastrollout"]
 	path = project/libfastrollout
 	url = git@github.com:sjtu-ai-go/libfastrollout.git
+	branch = master
 [submodule "project/go-ai"]
 	path = project/go-ai
 	url = git@github.com:sjtu-ai-go/go-ai.git
+	branch = master
 [submodule "project/libuct"]
 	path = project/libuct
 	url = git@github.com:sjtu-ai-go/libuct.git
