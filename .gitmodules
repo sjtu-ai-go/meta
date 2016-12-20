@@ -17,3 +17,6 @@
 [submodule "project/libuct"]
 	path = project/libuct
 	url = git@github.com:sjtu-ai-go/libuct.git
+[submodule "project/libpolicy-grpc"]
+	path = project/libpolicy-grpc
+	url = git@github.com:sjtu-ai-go/libpolicy-grpc.git
