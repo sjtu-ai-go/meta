@@ -20,3 +20,7 @@
 [submodule "project/libpolicy-grpc"]
 	path = project/libpolicy-grpc
 	url = git@github.com:sjtu-ai-go/libpolicy-grpc.git
+[submodule "project/build-image"]
+	path = project/build-image
+	url = git@github.com:sjtu-ai-go/build-image.git
+	branch = master

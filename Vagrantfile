@@ -70,5 +70,6 @@ Vagrant.configure("2") do |config|
      sudo sed -i 's/mirrors.ustc.edu.cn/ftp.sjtu.edu.cn/g' /etc/apt/sources.list
      apt-get update
      apt-get install -yy build-essential g++ libboost-dev cmake libsnappy-dev git libboost-all-dev
+     apt-get install -yy libprotobuf-dev
    SHELL
 end
