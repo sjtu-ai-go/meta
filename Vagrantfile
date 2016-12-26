@@ -69,7 +69,9 @@ Vagrant.configure("2") do |config|
      sudo sed -i 's/us.mirrors.ustc.edu.cn/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
      sudo sed -i 's/mirrors.ustc.edu.cn/ftp.sjtu.edu.cn/g' /etc/apt/sources.list
      apt-get update
-     apt-get install -yy build-essential g++ libboost-dev cmake libsnappy-dev git libboost-all-dev
+     apt-get install -yy build-essential g++ libboost-dev cmake libsnappy-dev git libboost-all-dev software-properties-common
+     sudo add-apt-repository ppa:thopiekar/cura-master -y
+     sudo apt-get update
      sudo apt-get update && sudo apt-get install libprotobuf-dev protobuf-compiler -yy --allow-unauthenticated
    SHELL
 end

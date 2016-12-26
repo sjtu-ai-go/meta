@@ -24,3 +24,7 @@
 	path = project/build-image
 	url = git@github.com:sjtu-ai-go/build-image.git
 	branch = master
+[submodule "project/libpolicy-server"]
+	path = project/libpolicy-server
+	url = git@github.com:sjtu-ai-go/libpolicy-server.git
+	branch = master
